@@ -156,6 +156,25 @@
     "description": "Check the uptime",
     "result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
   },
+  "trololo": {
+    "description": "Spam pinguj kogos",
+    "usagesReply": "Jak użyc: {prefix}trololo <Kogo> <Ile razy>",
+    "result": "Zaczynam trolaż B)",
+    "args": {
+      "kogo": "Kogo pingować",
+      "ileRazy": "Ile razy pingować"
+    }
+  },
+  "place": {
+    "description": "Generacja linku na r/place",
+    "usagesReply": "Jak użyc: {prefix}place <Link do .png/.jpg> <x> <y>",
+    "result": "Generuje link B)",
+    "args": {
+      "URL": "Link do .png/.jpg",
+      "x": "Współrzędna x",
+      "y": "Współrzędna y"
+    }
+  },
   "volume": {
     "description": "Change volume of currently playing music",
     "errorNotQueue": "There is nothing playing.",
