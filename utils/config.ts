@@ -7,6 +7,7 @@ try {
   config = require("../config.json");
 } catch (error) {
   config = {
+    PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "",
     TOKEN: process.env.TOKEN || "",
     PREFIX: process.env.PREFIX || "!",
     MAX_PLAYLIST_SIZE: parseInt(process.env.MAX_PLAYLIST_SIZE!) || 10,
